@@ -5,3 +5,7 @@ all stuffs related to [CodingTrain's tutorial series](https://www.youtube.com/pl
 ## Hello World
 
 Hello World showing rainbows and other misc. stuffs
+
+## Clock
+
+Simple neon-colored clock from CodingTrain tutorial series
