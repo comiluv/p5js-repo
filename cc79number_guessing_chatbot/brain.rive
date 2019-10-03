@@ -1,0 +1,29 @@
+// Chatbot's brain
+! version = 2.0
+// ! var num = 37555
+! sub who's = who is
+
++ *
+- try saying knock knock
+
++ [*] knock knock [*]
+- Who's there?
+
++ *
+% who is there
+- <star> who
+
++ *
+% * who
+- hahahahahaha
+
+// + set #
+// - <set num=<star>>
+
+// + #
+// * <star> > <get num> => pick a lower number
+// * <star> < <get num> => pick a higher number
+// * <star> == <get num> => you got it!
+
+// + *
+// - Guess a number between 0 and 99999
