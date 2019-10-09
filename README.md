@@ -61,3 +61,27 @@ bursting stuffs using mo.js
 ## spring animation
 
 springy mouse-following stuff
+
+## flappy bird and neuro evol flappy bird
+
+single player version of flappy bird and neural network solving flappy bird
+
+## xor problem
+
+neural network solving xor problem
+
+## 2048
+
+2048 game in p5
+
+## quadtree
+
+quadtree demo
+
+## neural network color selector
+
+supposed to be something that works but hard to get that its working
+
+## rectcirclecol
+
+rectangle to circle collision thing while trying to mix different approaches to handling rectangle to circle collision detection

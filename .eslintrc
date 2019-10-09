@@ -7,10 +7,19 @@
 
 {
     "env": {
-        "node": true,
+        // "node": true,
         "browser": true,
         "amd": true,
         "es6": true
+    },
+    "root": true,
+    "extends": ["airbnb-base"],
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "script",
+        "ecmaFeatures": {
+            "globalReturn": false
+        }
     },
     "globals": {
         "p5": "readonly",
@@ -420,30 +429,36 @@
         "setBPM": "readonly",
         "saveSound": "readonly"
     },
-    "root": true,
-    "extends": ["airbnb-base"],
-    "parserOptions": {
-        "ecmaVersion": 2018,
-        "sourceType": "module"
-    },
     "rules": {
         "eqeqeq": ["warn", "smart"],
+        "max-classes-per-file": "off",
         "new-cap": "off",
         "no-caller": "error",
         "no-cond-assign": ["error", "except-parens"],
         "no-plusplus": "off",
         "no-restricted-syntax": "off",
         "no-undef": "error",
-        "no-unused-vars": ["warn", { "varsIgnorePattern": "setup|draw|preload" }],
-        "no-use-before-define": ["error", { "functions": false, "classes": true }],
-        "no-empty": ["warn", { "allowEmptyCatch": true }],
-        "no-console": "off",
-        "semi": "warn",
-        "semi-style": ["error", "last"],
-        "no-tabs": ["error", { "allowIndentationTabs": true }],
+        "no-unused-vars": ["error", {
+            "varsIgnorePattern": "setup|draw|preload|keyPressed"
+        }],
+        "no-use-before-define": ["error", {
+            "functions": false,
+            "classes": true
+        }],
+        "no-empty": ["warn", {
+            "allowEmptyCatch": true
+        }],
+        "no-console": "warn",
+        "no-tabs": ["error", {
+            "allowIndentationTabs": true
+        }],
         // "brace-style": ["error", "allman", { "allowSingleLine": true }],
         "quotes": "off",
+        "semi": "warn",
+        "semi-style": ["error", "last"],
         "linebreak-style": "off",
-        "indent": ["error", 4, { "SwitchCase": 1 }]
+        "indent": ["error", 4, {
+            "SwitchCase": 1
+        }]
     }
 }
