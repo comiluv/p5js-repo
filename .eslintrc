@@ -439,7 +439,7 @@
         "no-restricted-syntax": "off",
         "no-undef": "error",
         "no-unused-vars": ["error", {
-            "varsIgnorePattern": "setup|draw|preload|keyPressed"
+            "varsIgnorePattern": "setup|draw|preload|keyPressed|mousePressed|mouseReleased|mouseClicked"
         }],
         "no-use-before-define": ["error", {
             "functions": false,

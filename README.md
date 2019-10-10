@@ -85,3 +85,7 @@ supposed to be something that works but hard to get that its working
 ## rectcirclecol
 
 rectangle to circle collision thing while trying to mix different approaches to handling rectangle to circle collision detection
+
+## linear regression and polynomial regression with tensorflow
+
+using tensorflow.js for fun
